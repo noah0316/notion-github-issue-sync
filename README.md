@@ -17,7 +17,7 @@ Notion 데이터베이스와 Github issue 연동을 Github Actions에서 사용�
 ## Usage
 
 아래의 Workflow 정의를 통해   
-쉽게 여러분의 Repo에서 Github Issue와 Notion 데이터베이스 연동을 구성할 수 있습니다.
+별도의 install 과정 없이 쉽게 여러분의 Repo에서 Github Issue와 Notion 데이터베이스 연동을 구성할 수 있습니다.
 
 ```yml
 on:

@@ -1,6 +1,6 @@
 # Github Actions x notion-sdk-js x docker
 
-<img src="https://dev.notion.so/front-static/external/readme/images/github-notion-example@2x.png" alt="drawing" width="500"/>
+![Slide 16_9 - 1](https://user-images.githubusercontent.com/63908856/152654818-4df6ad57-436d-4ef4-8f19-5ad0c90e423c.png)
 
 ## Demo
  ![screencast 2022-02-06 02-55-56](https://user-images.githubusercontent.com/63908856/152653248-95228c28-97f2-4584-a486-cc6d64a2eb97.gif)
@@ -81,6 +81,11 @@ jobs:
 4. 현재 Repository에서 REPO_OWNER는 noah0316이며,  
    REPO_NAME은 notion-github-issue-sync입니다. 
 ![Screen Shot 2022-02-06 at 2 41 21](https://user-images.githubusercontent.com/63908856/152652614-a452da1b-84c9-4feb-94df-12be2b270887.png)
+
+## STEP 5
+- 해당 [docker-compose.yml](https://github.com/noah0316/notion-github-issue-sync/blob/main/docker-compose.yml) 파일을 여러분의 Repo에 upload해주세요!
+
+---
 
 이제 모든 설정이 끝났습니다!!
 

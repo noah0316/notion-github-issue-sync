@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  app:
+    container_name: notion-github-issue-sync
+    image: noah0316/notion-github-issue-sync
+    environment:
+      - PERSONAL_ACCESS_KEY
+      - NOTION_KEY
+      - NOTION_DATABASE_ID
+      - REPO_OWNER
+      - REPO_NAME

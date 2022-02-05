@@ -1,6 +1,7 @@
 # Github Actions x notion-sdk-js x docker
 
-![Slide 16_9 - 1](https://user-images.githubusercontent.com/63908856/152654818-4df6ad57-436d-4ef4-8f19-5ad0c90e423c.png)
+![Slide 16_9 - 3](https://user-images.githubusercontent.com/63908856/152655068-abe614f8-46cc-4e2b-addf-d775068b15d4.png)
+
 
 ## Demo
  ![screencast 2022-02-06 02-55-56](https://user-images.githubusercontent.com/63908856/152653248-95228c28-97f2-4584-a486-cc6d64a2eb97.gif)

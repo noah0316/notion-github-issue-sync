@@ -38,7 +38,7 @@ jobs:
           echo REPO_OWNER=${{ secrets.REPO_OWNER }} >> .env
           echo REPO_NAME=${{ secrets.REPO_NAME }} >> .env
       - name: docker compose up
-        run
+        run: docker-compose --env-file .env up
 ```
 
 본 Application을 Github Actions에서 사용하기 위해서는 5개의 환경변수(environment variable)를 필요로 합니다.

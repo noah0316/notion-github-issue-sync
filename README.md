@@ -2,6 +2,9 @@
 
 <img src="https://dev.notion.so/front-static/external/readme/images/github-notion-example@2x.png" alt="drawing" width="500"/>
 
+## Demo
+ ![screencast 2022-02-06 02-55-56](https://user-images.githubusercontent.com/63908856/152653248-95228c28-97f2-4584-a486-cc6d64a2eb97.gif)
+
 ## Abstract
 [notion-sdk-js](https://github.com/makenotion/notion-sdk-js/tree/main/examples/notion-github-sync)는 
 Notion 데이터베이스와 Github의 issue의 를 동기화시켜주는 Node-JS application 입니다.  
@@ -82,7 +85,4 @@ jobs:
 이제 모든 설정이 끝났습니다!!
 
 이제 Workflow 구성을 통해 Notion과 Github Issue가 연동되는 것을 확인하세요!!
-
-## Demo
- ![screencast 2022-02-06 02-55-56](https://user-images.githubusercontent.com/63908856/152653248-95228c28-97f2-4584-a486-cc6d64a2eb97.gif)
 

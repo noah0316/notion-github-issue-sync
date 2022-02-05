@@ -11,7 +11,7 @@ const { Client } = require("@notionhq/client")
 const { Octokit } = require("octokit")
 const _ = require("lodash")
 
-const octokit = new Octokit({ auth: process.env.GITHUB_KEY })
+const octokit = new Octokit({ auth: process.env.PERSONAL_GITHUB_ACCESS_KEY })
 const notion = new Client({ auth: process.env.NOTION_KEY })
 
 const databaseId = process.env.NOTION_DATABASE_ID
@@ -99,8 +99,8 @@ async function getIssuesFromNotionDatabase() {
 async function getGitHubIssuesForRepository() {
   const issues = []
   const iterator = octokit.paginate.iterator(octokit.rest.issues.listForRepo, {
-    owner: process.env.GITHUB_REPO_OWNER,
-    repo: process.env.GITHUB_REPO_NAME,
+    owner: process.env.REPO_OWNER,
+    repo: process.env.REPO_NAME,
     state: "all",
     per_page: 100,
   })

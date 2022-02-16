@@ -10,7 +10,7 @@ jobs:
       - name: create env file
         run: |
           touch .env
-          echo PERSONAL_ACCESS_KEY=${{ secrets.PERSONAL_ACCESS_KEY }} >> .env
+          echo PERSONAL_GITHUB_ACCESS_KEY=${{ secrets.PERSONAL_GITHUB_ACCESS_KEY }} >> .env
           echo NOTION_KEY=${{ secrets.NOTION_KEY }} >> .env
           echo NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }} >> .env
           echo REPO_OWNER=${{ secrets.REPO_OWNER }} >> .env

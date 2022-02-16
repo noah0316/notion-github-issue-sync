@@ -4,7 +4,7 @@ services:
     container_name: notion-github-issue-sync
     image: noah0316/notion-github-issue-sync
     environment:
-      - PERSONAL_ACCESS_KEY
+      - PERSONAL_GITHUB_ACCESS_KEY
       - NOTION_KEY
       - NOTION_DATABASE_ID
       - REPO_OWNER

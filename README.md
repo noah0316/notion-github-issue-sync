@@ -32,7 +32,7 @@ jobs:
       - name: create env file
         run: |
           touch .env
-          echo PERSONAL_ACCESS_KEY=${{ secrets.PERSONAL_ACCESS_KEY }} >> .env
+          echo PERSONAL_GITHUB_ACCESS_KEY=${{ secrets.PERSONAL_GITHUB_ACCESS_KEY }} >> .env
           echo NOTION_KEY=${{ secrets.NOTION_KEY }} >> .env
           echo NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }} >> .env
           echo REPO_OWNER=${{ secrets.REPO_OWNER }} >> .env
@@ -42,7 +42,7 @@ jobs:
 ```
 
 본 Application을 Github Actions에서 사용하기 위해서는 5개의 환경변수(environment variable)를 필요로 합니다.
-1. PERSONAL_ACCESS_KEY: Github Personal Access Token
+1. PERSONAL_GITHUB_ACCESS_KEY: Github Personal Access Token
 2. NOTION_KEY: Notion API KEY
 3. NOTION_DATABASE_ID: Notion Database ID
 4. REPO_OWNER: Github Repository Owner
